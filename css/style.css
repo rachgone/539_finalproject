@@ -107,7 +107,7 @@ header {
     padding: 15px 0;
     text-align: center;
     border-radius: 0px 0px 60px 60px;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     z-index: 1000;
 }
@@ -442,6 +442,7 @@ h4 {
 .scroll-container img:focus {
     outline: 5px solid rgb(255, 255, 255);
 }
+
 
 
 @media screen and (min-width: 1280px) {
