@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>'80s Karaoke!</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/80s.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <a href="#info" class="skip-to-main-content-link">Skip to main content</a>
+    <header>
+        <h1>Retrotunes Karaoke</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="song1.html">Song 1</a></li>
+                <li><a href="song2.html">Song 2</a></li>
+                <li><a href="song3.html">Song 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="info">
+        <section class="history">
+            <h2 class="song1">The '80s Music Scene</h2>
+            <p>Music in the 1980s was all about image and with the advent and popularity of MTV, the images that
+                accompanied artists became more important than ever. When it came to music during the decade, nothing
+                was understated, not the sound, not the fashion, not even the charity. The 1980s reflected the beginning
+                of a period of great income disparity and a focus on affluence was reflected in the music. There were
+                also several new genres that popped up including, Hip Hop, New Wave and Hair Metal, all of which have
+                influenced music today.</p>
+        </section>
+        <h3 class="noteworthyartists song1">Noteworthy Artists</h3>
+        <section class="interactive-cards">
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Pop</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/80smus-mdna.png" alt="madonna" class="modal-trigger" data-modal-title="Madonna"
+                        data-modal-text="Madonna Louise Ciccone is an American singer, songwriter, and actress. Known as the 'Queen of Pop', she has been widely recognized for her continual reinvention and versatility in
+                        music production, songwriting and visual presentation.">
+
+                    <img src=" images/80smus-mchljack.png" alt="michael jackson" class="modal-trigger"
+                        data-modal-title="Michael Jackson" data-modal-text="Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Known as the
+                        'King of Pop', he is widely regarded as one of the most significant cultural figures of the 20th
+                        century. During his four-decade career, his contributions to music, dance, and fashion, along
+                        with his publicized personal life, made him a global figure in popular culture.">
+                </div>
+
+            </div>
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Rock</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/aerosmith.png" alt="aerosmith" class="modal-trigger" data-modal-title="Aerosmith"
+                        data-modal-text="Aerosmith is an American rock band formed in Boston in 1970. The group consists of Steven Tyler (vocals), Joe Perry (guitar), Tom Hamilton (bass), Joey Kramer (drums), and Brad Whitford (guitar). Their style, which is rooted in blues-based hard rock, has also incorporated elements of pop rock, heavy metal, glam metal,and rhythm and blues, and has inspired many subsequent rock artists.">
+
+                    <img src="images/gunsnroses.jpg" alt="guns n roses" class="modal-trigger"
+                        data-modal-title="Guns N' Roses"
+                        data-modal-text="Guns N' Roses is an American hard rock band from Los Angeles, California, formed in March 1985 when local bands Hollywood Rose and L.A. Guns merged. When they signed to Geffen Records in 1986, the band's 'classic lineup' consisted of vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler.">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>New Wave</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/blondie.jpg" alt="Blondie band" class="modal-trigger" data-modal-title="Blondie"
+                        data-modal-text="Blondie is an American rock band formed in 1974 in New York City by singer Debbie Harry and guitarist Chris Stein. The band was a pioneer in the American new wave scene of the mid-1970s in New York City. The band's first two albums contained strong elements of punk and new wave, and although highly successful in the UK and Australia, Blondie was regarded as an underground band in the U.S. until the release of Parallel Lines in 1978.">
+
+                    <img src="images/duranduran.jpg" alt="Duran Duran" class="modal-trigger"
+                        data-modal-title="Duran Duran"
+                        data-modal-text="Duran Duran are an English pop rock band formed in Birmingham in 1978 by singer Stephen Duffy, keyboardist Nick Rhodes and guitarist/bassist John Taylor. Emerging as members of the New Romantic scene, Duran Duran were innovators of the music video and a leading band in the MTV-driven Second British Invasion of the US in the 1980s.">
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section class="interactive-cards">
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Hip Hop</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/gm.jpeg" alt="GrandMaster Flash & the Furious Five" class="modal-trigger"
+                        data-modal-title="GrandMaster Flash & the Furious Five"
+                        data-modal-text="One of the pioneering groups in hip hop, known for their influential tracks like 'The Message', which brought social commentary to the genre.">
+
+                    <img src="images/dmc.jpg" alt="Run DMC" class="modal-trigger" data-modal-title="Run DMC"
+                        data-modal-text="A trailblazing hip hop group that popularized rap music with their energetic beats and distinctive style, paving the way for future hip hop artists.">
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Synthpop</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/synth.jpg" alt="depeche mode" class="modal-trigger" data-modal-title="Depeche Mode"
+                        data-modal-text="A British electronic band known for their dark, atmospheric synthpop sound and introspective lyrics, gaining widespread popularity with albums like 'Violator'.">
+
+                    <img src="images/petshop.jpg" alt="Pet Shop Boys" class="modal-trigger"
+                        data-modal-title="Pet Shop Boys"
+                        data-modal-text="An iconic duo known for their catchy synthpop tunes and clever lyrics, such as 'West End Girls', which became a worldwide hit in the 80s.">
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Post-Punk</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/joydiv.jpg" alt="Joy Division" class="modal-trigger"
+                        data-modal-title="Joy Division"
+                        data-modal-text="A seminal post-punk band known for their haunting soundscapes and introspective lyrics, led by the enigmatic Ian Curtis until his tragic death in 1980.">
+
+                    <img src="images/banshies.jpg" alt="Siouxsie and the Banshees" class="modal-trigger"
+                        data-modal-title="Siouxsie and the Banshees"
+                        data-modal-text="Pioneers of the post-punk and gothic rock scene, known for their innovative sound and the powerful vocals of lead singer Siouxsie Sioux.">
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section class="interactive-cards">
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Funk</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/prince.jpg" alt="Prince" class="modal-trigger" data-modal-title="Prince"
+                        data-modal-text="A musical prodigy and icon of the 80s, Prince blended funk, rock, and R&B to create a unique sound that challenged musical boundaries, with hits like Purple Rain and Kiss.">
+
+                    <img src="images/rj.jpg" alt="Rick James" class="modal-trigger" data-modal-title="Rick James"
+                        data-modal-text="A funk legend known for his flamboyant persona and infectious grooves, Rick James dominated the 80s music scene with hits like Super Freak and Give It to Me Baby.">
+                </div>
+
+
+            </div>
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>Reggae</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/bob.jpg" alt="Bob Marley & The Wailers" class="modal-trigger"
+                        data-modal-title="Bob Marley & The Wailers"
+                        data-modal-text="Reggae's most iconic figure, Bob Marley brought Jamaican music to a global audience with his messages of peace, love, and unity, epitomized in songs like One Love and Redemption Song.">
+
+                    <img src="images/ub40.jpg" alt="UB40" class="modal-trigger" data-modal-title="UB40"
+                        data-modal-text="A British reggae band that achieved commercial success in the 80s with their smooth reggae-pop sound, covering classics like Red Red Wine and Kingston Town.">
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-header" tabindex="0" onclick="toggleCard(this)"
+                    onkeydown="toggleCardKeyPress(event, this)">
+                    <h4>EDM</h4>
+                </div>
+                <div class="card-content">
+                    <img src="images/edm1.jpg" alt="Kraftwerk" class="modal-trigger" data-modal-title="Kraftwerk"
+                        data-modal-text="German pioneers of electronic music, Kraftwerk's innovative use of synthesizers and futuristic themes laid the groundwork for the EDM genre, influencing countless artists with albums like Trans-Europe Express and Computer World.">
+
+                    <img src="images/edm2.jpg" alt="New Orde" class="modal-trigger" data-modal-title="New Orde"
+                        data-modal-text="Formed from the ashes of Joy Division, New Order embraced electronic dance music, blending post-punk sensibilities with synthesizers to create hits like Blue Monday and Bizarre Love Triangle.">
+                </div>
+
+            </div>
+
+        </section>
+
+        <div id="info-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-modal" tabindex="0" onclick="closeModal()" onkeydown="closeModalKeyPress(event)">&times;</span>
+                <h2 id="modal-title">Modal Title</h2>
+                <p id="modal-text">Here is the text content for the modal.</p>
+            </div>
+        </div>
+        <footer>
+            <p class="footer">&copy; 2024 Rachana Gone. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
